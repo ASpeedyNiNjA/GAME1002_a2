@@ -1,4 +1,5 @@
 ﻿title: Start
+position: 0,0
 ---
 Wow!
 My first ever Yarn script in Unity!
@@ -8,4 +9,85 @@ My first ever Yarn script in Unity!
 -> I'm amazed!
 
 Anyway, time to get writing!
+<< jump Learning_Node >>
 ===
+
+title: Learning_Node
+---
+Every node has a collection of headers and a body
+All nodes have at least one header, the title
+The body is the container for the script
+<<jump Learning_Options>>
+===
+
+title: Learning_Options
+---
+Options are lines prefixed with a ->
+-> Option A ~ no optional Option line
+-> Option B ~ optional Option Line
+    I'm the indented line that's all the fuss in this example
+Options can contain their own idented lines that only run if selected
+I can also nest options within options
+-> Option A ~ Option C follow me
+    Good for you, Option C awaits thee
+    -> Option C1
+        You chose option C1
+    -> Option C2
+        I chose option C2
+-> Option B ~ Option D? Allow me!
+    -> Option B1
+        Option B1 chose 1 because...
+    -> Option B2
+        Option B2 because I'm bettwo than you!
+I can never not be displayed! 
+Unless you delete me... moving on!
+<<jump Learning_Jump>>
+===
+
+title: Learning_Jump
+---
+I was already covered in the Beginner's guide...
+That's why I exist here!
+Typing < jump > a key is followed by a value for the key, the name of the node!
+That's < < of each > > by the way!
+VS Code and Yard Spinner will complain if I type two.
+Even though that's what they really want!
+<<detour Learning_Detour>>
+Jumped right back into my arms? Couldn't get enough, huh?
+Aww.. wait! Leaving so soon!
+<<jump Learning_Variables>>
+===
+
+title: Learning_Detour
+---
+Don't take that literally, this is a good learning detour!
+Betcha thought I was going to jump?
+Detours can use a return statement to return to the previous node
+Detours will go back to the previous node once the detourred node ends
+However! A <jump> in a node will switch nodes and you'll never make it back!
+Well... back to Learning_Jump!
+===
+
+title: Learning_Variables
+---
+Variables Stuffing Variables
+I may find it useful to create a special node, maybe called Setup, used solely for...
+<declare>
+Declaring all the variables the narrative uses!
+Variables are declared with the $ sign
+<set $greeting to "Hello, Yarn!">
+Set is used for setting the information of a variable
+Variables cannot be empty
+<<declare $myName = "What's my name">>
+Outputting a declared variable myName: {$myName}
+<<set $myName to "Chris">>
+Yes, my name is {$myName}
+===
+
+title: Save_Point
+style: note
+color: blue
+---
+Chris: That's enough for now!
+===
+
