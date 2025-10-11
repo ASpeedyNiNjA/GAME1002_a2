@@ -1,18 +1,77 @@
 ﻿title: Start
-position: 0,0
+position: -239,-370
 ---
-Wow!
-My first ever Yarn script in Unity!
-
--> Gosh!
--> Incredible!
--> I'm amazed!
-
-Anyway, time to get writing!
-<< jump Learning_Node >>
+Me: What am I going to do today?
+Me: I've got an impulsive craving to buy the new Legend of Zelda game Twilight Princess.
+Me: Should I...
+-> a) Buy the new Legend of Zelda videogame // Neutral
+-> b) Play guitar all day //+1 (Neutrality?) point
+-> c) Sleep the day away //-1 point
+<<jump Kitchen>>
 ===
 
+title: Kitchen
+position: -239,-230
+---
+Me: Hi everybody! Hi Mom, Hi Dad, Hi Sister!
+I join in as everyone is lounging around the kitchen for breakfast.
+Mom: What are you up to today?
+Me: I'm going to (insert Start option here)
+Mom: Oh! Well, what else should I expect from my sweet little boy.
+Dad: 'grunts'
+Sister: Hehe, doing (variable) all day is going to bite you in the ass one day!
+Everyone eats Rice Krispies for breakfast in front of the TV.
+<<jump Bedroom>>
+===
+
+title: Bedroom
+position: -239,-90
+---
+Me: What was I going to do today?...
+Me: Oh yeah! I was going to //insert variable
+Time passes as I (variable)
+...
+Sister helps herself inside my room
+Sister: Hey, I'm missing some money. You wouldn't know where it is, would you?
+Me: No, I don't have a clue where your money is.
+Sister: Would you be able to help me find it by any chance?
+Me: Should I...
+-> a) Help sister look for missing money
+-> b) Shove it sis! I'm gaming!!
+<<jump Stairs>> //option A
+//<<jump Bedroom II>> //option B
+===
+
+title: Stairs
+---
+bug check placeholder
+===
+
+
+// ---------------------------------------------------------------------
+
+
+
+
+
+
+
+// title: Start
+// position: 0,0
+// ---
+// Wow!
+// My first ever Yarn script in Unity!
+
+// -> Gosh!
+// -> Incredible!
+// -> I'm amazed!
+
+// Anyway, time to get writing!
+// << jump Learning_Node >>
+// ===
+
 title: Learning_Node
+position: 211,-137
 ---
 Every node has a collection of headers and a body
 All nodes have at least one header, the title
@@ -21,6 +80,8 @@ The body is the container for the script
 ===
 
 title: Learning_Options
+color: yellow
+position: -65,211
 ---
 Options are lines prefixed with a ->
 -> Option A ~ no optional Option line
@@ -45,6 +106,8 @@ Unless you delete me... moving on!
 ===
 
 title: Learning_Jump
+color: red
+position: 186,5
 ---
 I was already covered in the Beginner's guide...
 That's why I exist here!
@@ -59,6 +122,7 @@ Aww.. wait! Leaving so soon!
 ===
 
 title: Learning_Detour
+position: 157,39
 ---
 Don't take that literally, this is a good learning detour!
 Betcha thought I was going to jump?
@@ -69,6 +133,7 @@ Well... back to Learning_Jump!
 ===
 
 title: Learning_Variables
+position: 146,98
 ---
 Variables Stuffing Variables
 I may find it useful to create a special node, maybe called Setup, used solely for...
@@ -86,7 +151,8 @@ Yes, my name is {$myName}
 
 title: Save_Point
 style: note
-color: blue
+color: yellow
+position: 166,205
 ---
 Chris: That's enough for now!
 ===
